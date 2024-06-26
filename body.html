@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Body-care</title>
+        <style>
+                .container{
+                        background-color: rgb(119, 86, 119);
+                        height:110px;
+                        
+                }
+                .nav-bar{
+                        margin-left: -8px;
+                        margin-top: -8px;
+                        width: 1263px;
+                }
+                .logo{
+                        margin-top: 25px;
+                }
+                .nav-item{
+                        
+                        display: flex;
+                        padding-left: 590px;
+                        justify-content: center;
+                        margin-top: -30px;
+                        list-style: none;
+                }
+                .item-content__icon{
+                        color: white;
+                        margin-left: 5px;
+                        width: 10px;
+                        height:10px;
+                }
+                a{
+                        color:white;
+                        margin-left: 45px;
+                        text-decoration: none;
+                        list-style: none;
+                }
+                .cart{
+                        margin-left:0px;
+                }
+                .block-header-cart__icon{
+                        padding-left:15px;
+                        color: white;
+                        margin-top: -9px;
+                }
+                a:hover{
+                        color: black;
+                        text-decoration: underline;
+                }
+                .body-img{
+                        width: 1263px;
+                        height: 520px;
+                }
+                .body-h{
+                        margin-top: -380px;
+                        color: white;
+                        font-size:18px;
+                        text-align: center;
+                        font-family: v(--font-primary);
+                }
+                .body-head{
+                        margin-top:18px;
+                        color: white;
+                        font-size: 110px;
+                        font-family: v(--font-primary);
+                        text-align: center;
+                        padding-left:325px;
+                        margin-right: 260px;
+                }
+                .now{
+                        height: 50px;
+                        width: 195px;
+                        background-color:  rgb(130, 64, 130);
+                        border-radius: 30px;
+                        color: white;
+                        font-weight: 600;
+                        font-size: 16px;
+                        border: 2px solid rgb(130, 64, 130);
+                       margin-top: 40px;
+                       margin-left: 500px; 
+                }
+                .now a{
+                        margin-left: 5px;
+                }
+                .body-care{
+                        color:rgb(130, 64, 130);
+                        font-family:v(--font-primary);
+                        margin-top: 200px;
+                }
+                .massage{
+                        width: 300px;
+                        height: 405px;
+                        margin-left: 10px;
+                }
+                .body-care h1{
+                        margin-left:470px;
+                        font-family:v(--font-primary) ;
+                        font-size: 80px;
+                        position: absolute;
+                        margin-top: -400px;
+                }
+                .body-care p{
+                        margin-left: 400px;
+                        text-align: center;
+                        padding-right: 375px;
+                        font-weight: 100; 
+                        margin-top: -280px;
+                }
+                .sit{
+                        margin-left: 920px;
+                        margin-top: -245px;
+                        width: 300px;
+                        height: 405px;
+                }
+                .now a{
+                        text-decoration: none;
+                        color: white;
+                }
+                .now-a:hover{
+                        color: white;
+                        background-color: pink;
+                        text-decoration: none;
+                }
+                .now:hover{
+                        background-color: pink;
+                        border: 2px solid pink;
+                }
+                .offer{
+                        margin-top: 100px;
+                        color: rgb(130,64,130);
+                }
+                .offer h1{
+                        margin-left: 1000px;
+                        font-size:70px;
+                        margin-top:-95px;
+                }
+                .offer h2{
+                        margin-left:80px;
+                        font-size:20px;
+                }
+                .offer p{
+                        margin-top: 50px;
+                        padding-right: 740px;
+                        margin-left:80px;
+                }
+                .color{
+                        background-color: rgb(255, 245, 251);
+                }
+                .test{
+                        margin-top: 65px;
+                        background-color: rgb(255, 245, 251);
+                }
+                .test h1{
+                        color: rgb(130, 64, 130);
+                        text-align: center;
+                        font-size: 65px;
+                }
+                .test img{
+                        width:400px;
+                        height:295px;
+                        margin-left:12px;
+                }
+                .name{
+                        color: rgb(130, 64, 130);
+                        font-weight: 200;
+                        font-size: 10px;
+                        display: flex;
+                        margin-left: 140px;                
+                }
+                .name-h2{
+                        margin-left: 290px;
+                }
+                .name-h3{
+                        margin-left: 300px;
+                }
+                .deta{
+                        color: rgb(130, 64, 130);
+                        text-align: center;
+                        display: flex;
+                        margin-left: 15px;
+                }
+                .deta-p3{
+                        margin-left:130px;
+                }
+                .deta-p2{
+                        margin-left: 100px;
+                }
+                .book h1{
+                        font-size: 80px;
+                        margin-top: 100px;
+                        text-align: center;
+                        color: rgb(130, 64, 130);
+                }
+                .book form{
+                        margin-left: 465px;
+                        font-size: 20px;
+                        margin-top: 20px;
+                        color: black;
+                }
+                .book input{
+                        height: 40px;
+                        width: 480px;
+                        margin-top: 10px;
+                        background-color:rgb(241, 241, 241);
+                        border: 2px solid rgb(241, 241, 241);
+                }
+                .ebut-a{
+                        text-decoration: none;
+                        color: white;
+                        margin-left: 5px;
+                }
+                .ebut-a:hover{
+                        color: white;
+                        background-color: pink;
+                        text-decoration: none;
+                }
+                .ebut:hover{
+                        background-color: pink;
+                        border: 2px solid pink;
+                }
+                .ebut{
+                        height: 50px;
+                        width: 130px;
+                        background-color:  rgb(130, 64, 130);
+                        border-radius: 30px;
+                        color: white;
+                        font-weight: 600;
+                        font-size: 16px;
+                        border: 2px solid rgb(130, 64, 130);
+                       margin-top: 40px;
+                       margin-left:575px; 
+                }
+                .foot{
+                        display:flex;
+                        color: white;
+                        background-color:rgb(119, 86, 119) ;
+                        height: 400px;
+                        margin-top:5px;
+                }
+                .foot1{
+                        margin-top: 100px;
+                }
+                .foot h1{
+                        margin-left: 50px;
+                        margin-bottom: 60px;
+                }
+                .foot1 h6{
+                       font-size: 15px;
+                       margin-left:45px;
+                       margin-top: -30px;
+                }
+                .foot1 a{
+                
+                        margin-left:30px;
+                }
+                .foot2{
+                        margin-left:150px;
+                        margin-top: 100px;
+                        font-size: 25px;
+                }
+                .foot3 h1{
+                        font-size: 30px;
+                        text-align: center;
+                        margin-top: 90px;
+                }
+                .foot3 form{
+                        margin-left:100px;
+                        margin-top: 50px;
+                }
+                .foot3 input{
+                        margin-left: -5px;
+                        height: 45px;
+                        width: 490px;
+                         color:rgb(245, 248, 251);
+                         font-weight: 100;
+                }
+                .foot3 input:hover{
+                        color: black;
+                        background-color: white;
+                        border: 2px solid white;
+                }.foot3 button{
+                        height: 40px;
+                        width: 140px;
+                        color:  rgb(130, 64, 130);
+                        border-radius: 30px;
+                        background-color: white;
+                        font-weight: 600;
+                        font-size: 16px;
+                        border: 2px solid white;
+                       margin-top:40px;
+                       margin-left:0px; 
+                }
+                .foot3 a{
+                        text-decoration: none;
+                        color:rgb(130, 64, 130);
+                        margin-left: 5px;
+                }
+                .foot3 a:hover{
+                        color: black;
+                        text-decoration: none;
+                }
+                .foot3 button:hover{
+                        background-color:rgb(242, 236, 236);
+                        border: 2px solid white;
+                        color: black;
+                }
+                
+        </style>
+</head>
+<body>
+        <header>
+                <nav class="nav-bar">
+                        <div class="container">
+                                <img class="logo" src="https://assets.zyrosite.com/kristinelite52xvg/kristine-YbNXynDD6MS6ZNvR.svg" alt="">
+                                <div class="nav-item">
+                                <li><a href="home.html">HOME</a></li>
+                                <li><a href="about.html">ABOUT ME</a></li>
+                                <li><a href="service.html">SERVICE</a><svg data-v-cf3ff533="" class="item-content__icon" width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path data-v-cf3ff533="" d="M5 6.5L0.669873 0.5L9.33013 0.500001L5 6.5Z" fill="currentColor"></path></svg></li>
+                                <li><a href="shop.html">SHOP</a></li>
+                                <li><a  href="contact.html">CONTACT</a></li>
+                                <li><a  class="cart" href="cart.html">
+                                        <svg data-v-da7f12ed="" width="20" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-header-cart__icon"><path data-v-da7f12ed="" fill-rule="evenodd" clip-rule="evenodd" d="M5.94636 5.35922C6.29451 3.00506 7.9363 1.39824 9.67973
+                                                1.39824C11.4232 1.39824 13.0649 3.00506
+                                                13.4131 5.35922H5.94636ZM4.53847 5.35922C4.90317 2.43147
+                                                6.95866 0.000183105 9.67973 0.000183105C12.4008
+                                                0.000183105 14.4563 2.43147 14.821 5.35922H17.2816H18.6797V6.75728V21.2039C18.6797
+                                                22.7481 17.4278 24 15.8836
+                                                24H3.4758C1.93155 24 0.679688 22.7481 0.679688
+                                                21.2039V6.75728V5.35922H2.07775H4.53847ZM2.07775 6.75728H4.52596V9.08752C4.52596
+                                                9.47359 4.83893 9.78655 5.22499 9.78655C5.61105 9.78655 5.92402 9.47359
+                                                5.92402 9.08752V6.75728H13.5259V9.08752C13.5259 9.47359
+                                                13.8389 9.78655 14.2249 9.78655C14.611 9.78655 14.9239
+                                                9.47359 14.9239 9.08752V6.75728H17.2816V21.2039C17.2816 21.976 16.6557 22.6019
+                                                15.8836 22.6019H3.4758C2.70368 22.6019 2.07775 21.976 2.07775 21.2039V6.75728Z" fill="currentColor"></path></svg>
+                                CART(O)</a></li>
+                        </div>
+                </div>
+                        <img class="body-img" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/kristinelite52xvg/Body-hero-m7VVkZleGrHKRB6O.png" alt="">
+                        <h4 class="body-h">• SERVICES •</h4>
+                        <h1 class="body-head">I’ll take care of your body</h1>
+                </nav>
+         </header>
+         <main>
+                <div class="body-care">
+                        <img class="massage" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=594,h=736,fit=crop/kristinelite52xvg/img-m5KKrDlRWbTWekRE.png" alt="">
+                        <h1>Body care</h1>
+                        <p>People are so busy taking care of their minds and keeping fit, they often overlook the holistic care that their bodies are craving for. We offer massages, full body mud treatments, and tailored treatment plans for skin conditions such as psoriasis and dermatitis herpetiformis. Please specify any medication you're on during your booking.</p>
+                        <button class="now"><a class="now-a" href="">Book now</a></button>
+                        <img class="sit" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=594,h=736,fit=crop/kristinelite52xvg/img-YNqqNoORQns7exNd.png" alt="">
+                </div>
+                <div class="offer">
+                        <div class="color">
+                        <h2>SWEDISH MASSAGE</h2>
+                        <p>Relax and enjoy this deep-tissue massage followed by a 10-minute meditative relaxation session.  </p>
+                        <h1>$ 40</h1>
+                         </div>
+                        <h2>HOT-STONE MASSAGE</h2>
+                        <p>A massage that uses heated up stones to release tension and relax the body. Not recommended for skin conditions.</p>
+                        <h1>$ 55</h1>
+                        <div class="color">
+                        <h2>CLAY BODY WRAP</h2>
+                        <p>Detoxify, cleanse and tone with our special mud blend that helps with water retention and detoxing the pores. </p>
+                        <h1>$ 62</h1>
+                        </div>
+                        <h2>CELLULITE BODY WRAP</h2>
+                        <p>This treatment boosts circulation and flushes the body of toxins. Best used for targeted treatment.</p>
+                        <h1>$ 40</h1>
+                        <div class="color">
+                        <h2>SALT FLOAT</h2>
+                        <p>Forget about gravity and enjoy the sensation of floating in our custom-built float pods. </p>
+                        <h1>$ 45</h1>
+                        </div>
+                        <h2>THAI MASSAGE</h2>
+                        <p>Using traditional methods, this no-oil massage focuses on rebalancing your natural energy.</p>
+                        <h1>$ 50</h1>
+                </div>
+                <div class="test">
+                        <h1>Testimonials</h1>
+                        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=394,fit=crop/kristinelite52xvg/img-mePPGB0KR8HwGQ94.png" alt="">
+                        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=394,fit=crop/kristinelite52xvg/img-ALppbGBba4FnJ4V7.png" alt="">
+                        <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=394,fit=crop/kristinelite52xvg/img-ALppbv0nV3FQ8y39.png" alt="">
+                        <div class="name">
+                        <h2 >JESS MARIKO</h2>
+                        <h2 class="name-h2">SARAH MORGAN</h2>
+                        <h2 class="name-h3">ALICE STAUBER</h2>
+                        </div>
+                        <div class="deta">
+                        <p>Kristine is the best – I've been regularly seeing her for 2 years now and I've been able to seriously improve my cystic acne. She's professional and knows what she's doing. </p>
+                        <p class="deta-p2">I initially got referred to Kristine by my doctor, since I suffer from a psoriasis that's been difficult to manage with medication alone. Thanks to Kristine's know-how, we've been able to keep the flair-ups down for a year now.</p>
+                        <p class="deta-p3">I recently moved to the area and was looking for a beauty salon that would offer both body treatments and nail services. Kristine does both, and she does them well. Thanks girl!</p>
+                        </div>
+                </div>
+                <div class="book">
+                        <h1>Book an appointment</h1>
+                        <form action="">
+                                Name
+                                <br><input type="text" placeholder="Your name">
+                                <br><br>
+                                Last name
+                                <br><input type="text" placeholder="Your last name">
+                                <br><br>
+                                Your email*
+                                <br><input type="text" placeholder="Your email address">
+                                <br><br>
+                                Message*
+                                <br><input type="text" placeholder="Enter your message">
+                        </form>
+                        <button class="ebut"><a class="ebut-a" href="">SUBMIT</a></button>
+                </div>
+        </main>
+        <footer>
+                <div class="foot">
+                     <div class="foot1">
+                        <h1> Kristine H.</h1>
+                        <h6>info@kristine.com</h6>
+                        <h6> 123-456-7890</h6>
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.5331 7.11165C21.5483 7.32484 21.5483 7.53807 21.5483 7.75126C21.5483 14.2538 16.5991 21.7462 7.55333 21.7462C4.7665 21.7462 2.17768 20.9391 0 19.5381C0.395955 19.5838 0.776628 19.599 1.18782 19.599C3.48728 19.599 5.60407 18.8224 7.29444 17.4975C5.13199 17.4518 3.31979 16.0356 2.69542 14.0863C3.00001 14.132 3.30456 14.1624 3.62439 14.1624C4.066 14.1624 4.50766 14.1015 4.9188 13.9949C2.66499 13.538 0.974582 11.5584 0.974582 9.1675V9.10661C1.62938 9.47209 2.39087 9.70052 3.19792 9.73094C1.87304 8.84767 1.00505 7.34007 1.00505 5.63447C1.00505 4.72078 1.24866 3.88321 1.67508 3.15224C4.09642 6.13702 7.73605 8.08623 11.8172 8.29946C11.7411 7.93398 11.6954 7.55331 11.6954 7.17259C11.6954 4.46189 13.8883 2.25378 16.6142 2.25378C18.0304 2.25378 19.3096 2.84769 20.2081 3.80709C21.3198 3.5939 22.3858 3.18271 23.33 2.61927C22.9644 3.76143 22.1878 4.72082 21.1675 5.32992C22.1574 5.22337 23.1168 4.9492 24 4.56853C23.3301 5.54311 22.4924 6.4111 21.5331 7.11165Z" fill="currentColor"></path></svg></a>
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.0726C24 5.44354 18.629 0.0725708 12 0.0725708C5.37097 0.0725708 0 5.44354 0 12.0726C0 18.0619 4.38823 23.0264 10.125 23.9274V15.5414H7.07661V12.0726H10.125V9.4287C10.125 6.42144 11.9153 4.76031 14.6574 4.76031C15.9706 4.76031 17.3439 4.99451 17.3439 4.99451V7.94612H15.8303C14.34 7.94612 13.875 8.87128 13.875 9.82015V12.0726H17.2031L16.6708 15.5414H13.875V23.9274C19.6118 23.0264 24 18.0619 24 12.0726Z" fill="currentColor"></path></svg></a>
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0027 5.84808C8.59743 5.84808 5.85075 8.59477 5.85075 12C5.85075 15.4053 8.59743 18.1519 12.0027 18.1519C15.4079 18.1519 18.1546 15.4053 18.1546 12C18.1546 8.59477 15.4079 5.84808 12.0027 5.84808ZM12.0027 15.9996C9.80212 15.9996 8.00312 14.2059 8.00312 12C8.00312 9.7941 9.79677 8.00046 12.0027 8.00046C14.2086 8.00046 16.0022 9.7941 16.0022 12C16.0022 14.2059 14.2032 15.9996 12.0027 15.9996ZM19.8412 5.59644C19.8412 6.39421 19.1987 7.03135 18.4062 7.03135C17.6085 7.03135 16.9713 6.38885 16.9713 5.59644C16.9713 4.80402 17.6138 4.16153 18.4062 4.16153C19.1987 4.16153 19.8412 4.80402 19.8412 5.59644ZM23.9157 7.05277C23.8247 5.13063 23.3856 3.42801 21.9775 2.02522C20.5747 0.622429 18.8721 0.183388 16.9499 0.0870135C14.9689 -0.0254238 9.03112 -0.0254238 7.05008 0.0870135C5.1333 0.178034 3.43068 0.617075 2.02253 2.01986C0.614389 3.42265 0.180703 5.12527 0.0843279 7.04742C-0.0281093 9.02845 -0.0281093 14.9662 0.0843279 16.9472C0.175349 18.8694 0.614389 20.572 2.02253 21.9748C3.43068 23.3776 5.12794 23.8166 7.05008 23.913C9.03112 24.0254 14.9689 24.0254 16.9499 23.913C18.8721 23.822 20.5747 23.3829 21.9775 21.9748C23.3803 20.572 23.8193 18.8694 23.9157 16.9472C24.0281 14.9662 24.0281 9.03381 23.9157 7.05277ZM21.3564 19.0728C20.9388 20.1223 20.1303 20.9307 19.0755 21.3537C17.496 21.9802 13.7481 21.8356 12.0027 21.8356C10.2572 21.8356 6.50396 21.9748 4.92984 21.3537C3.88042 20.9361 3.07195 20.1276 2.64897 19.0728C2.02253 17.4934 2.16709 13.7455 2.16709 12C2.16709 10.2546 2.02789 6.50129 2.64897 4.92717C3.06659 3.87776 3.87507 3.06928 4.92984 2.6463C6.50931 2.01986 10.2572 2.16443 12.0027 2.16443C13.7481 2.16443 17.5014 2.02522 19.0755 2.6463C20.1249 3.06392 20.9334 3.8724 21.3564 4.92717C21.9828 6.50665 21.8383 10.2546 21.8383 12C21.8383 13.7455 21.9828 17.4987 21.3564 19.0728Z" fill="currentColor"></path></svg></a>
+                        </div>
+                     <div class="foot2">
+                        <h6>123 your street name,</h6>
+                        <h6>City name, Country, post code </h6>
+                     </div>
+                     <div class="foot3">
+                        <h1>Subscribe and get 10% off!</h1>
+                        <form action="">Email Address
+                        <br>
+                        <input type="email" placeholder="your email address">
+                        <button class="subb"><a class="sub" href="">SUBMIT</a></button>
+                        </form>
+                     </div>   
+                </div>
+               </footer>
+</body>
+</html>
